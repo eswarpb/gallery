@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery about animals</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+      h2 {
+        text-align: center;
+      }
+
+      .gallery {
+        width: 80%;
+        margin: 40px auto;
+        border-collapse: collapse;
+      }
+
+      .gallery td {
+        width: 33.33%;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      @media (max-width: 768px) {
+        .gallery {
+          width: 90%;
+        }
+        .gallery td {
+          width: 50%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .gallery {
+          width: 100%;
+        }
+        .gallery td {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>ANIMALS</h2>
+    <table class="gallery">
+      <tr>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipPMlwMW72ZnLeBp1vQhA1FqArTHT-Isnz2izZ2K=s3072-w3072-h1460"
+            alt="Image 1"
+          />
+        </td>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipMMdes6Mg82qNfm4bZKx8EKHXFxFnLG8360cry8=s3072-w3072-h1460"
+            alt="Image 2"
+          />
+        </td>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipNzB_QGVm1wK6m_41kDxfPZqZ-TnTz9iSJiEgbN=s3072-w3072-h1460"
+            alt="Image 3"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipNki969vp8fZ38oxvIvQByns2u0AhqV04j6xi1G=s3072-w3072-h1460"
+            alt="Image 4"
+          />
+        </td>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipOaU8YIkjnSEQYmoCaUSQKYXJ86H2wFHaYFbfBw=s3072-w3072-h1460"
+            alt="Image 5"
+          />
+        </td>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipP3QwICWwsRNUdOEEwKBLwECEe8gZf6yQ5G6dH6=s3072-w3072-h1460"
+            alt="Image 6"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipPJ6ILpJ70rsXINAQsFp_1m4YhmJiYK2ks2GbKH=s3072-w3072-h1460"
+            alt="Image 7"
+          />
+        </td>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipMfiS2cCp5IFPGHFm-y7HaEN9XrVVN9n-YXFD9x=s3072-w3072-h1460"
+            alt="Image 8"
+          />
+        </td>
+        <td>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipNeQd0F77Jz5iE_oZES9jJthIFihAOXJCz74KCy=s3072-w3072-h1460"
+            alt="Image 9"
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
